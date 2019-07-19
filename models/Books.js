@@ -19,7 +19,7 @@ var booksSchema = new Schema({
 });
 
 // Create the Note model using the noteSchema
-var Note = mongoose.model("Books", booksSchema);
+var Books = mongoose.model("Books", booksSchema);
 
 // Export the Note model
 module.exports = Books;

@@ -13,20 +13,12 @@ function App() {
       <div>
 
         <NavTabs />
-        
+
         <Route exact path="/" component={Search} />
         <Route exact path="/search" component={Search} />
         <Route exact path="/saved" component={Saved} />
       </div>
     </Router>
-
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
   );
 }
 
